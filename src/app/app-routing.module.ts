@@ -4,6 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { PlaciloComponent } from './placilo/placilo.component';
 import { HomeComponent } from './home/home.component';
 import { GoogleComponent } from './google/google.component';
+import { CelUrnikComponent } from './cel-urnik/cel-urnik.component';
+import { UrnikDrugihComponent } from './urnik-drugih/urnik-drugih.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: "google", 
     component: GoogleComponent
+  },
+  {
+    path: "celUrnik",
+    component: CelUrnikComponent
+  },
+  {
+    path: "urnik",
+    component: UrnikDrugihComponent
   }
 ];
 

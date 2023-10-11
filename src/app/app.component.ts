@@ -80,7 +80,7 @@ export class AppComponent {
   }
 
   naUrnik() {
-    this.router.navigateByUrl('urnikVseh')
+    this.router.navigateByUrl('urnik')
     this.opened = false;
   }
 
@@ -96,5 +96,10 @@ export class AppComponent {
     localStorage.removeItem("kdo")
 
     window.location.reload()
+  }
+
+  naCeloten() {
+    this.router.navigateByUrl('celUrnik')
+    this.opened = false;
   }
 }
