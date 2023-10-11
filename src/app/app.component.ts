@@ -10,7 +10,7 @@ import { Globals } from 'src/globals';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Novi';
+  title = 'Urnik';
 
   p: any;
 
