@@ -6,7 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WebService {
 
-  private url = "http://localhost:3000/api/";
+  //private url = "http://localhost:3000/api/";
+  private url = "http://52.59.252.12:3000/api/"
 
   constructor(
     private http: HttpClient
