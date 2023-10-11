@@ -4,7 +4,7 @@ let app = express()
 app.use(express.static(__dirname+'/dist/novi'));
 
 app.get("/*", (req, res) => {
-    res.sendFile(__dirname+'idst/novi/index.html')
+    res.sendFile(__dirname+'/dist/novi/index.html')
 });
 
 app.use('/', (req, res, next) => {
