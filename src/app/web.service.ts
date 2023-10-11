@@ -8,7 +8,8 @@ export class WebService {
 
   //private url = "http://localhost:3000/api/";
   //private url = "http://52.59.252.12:3000/api/"
-  private url = "http://3.70.237.147:3000/api/"
+  //private url = "http://3.70.237.147:3000/api/"
+  private url = "https://server-cwg1.onrender.com/api/"
 
   constructor(
     private http: HttpClient
